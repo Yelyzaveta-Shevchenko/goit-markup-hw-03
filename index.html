@@ -64,14 +64,16 @@
     <main>
       <!-- секція головна -->
       <section class="hero-page">
-        <h1 class="main-title">Effective Solutions for Your Business</h1>
-        <button class="main-page-button" type="button">Order Service</button>
+        <div class="container">
+          <h1 class="main-title">Effective Solutions for Your Business</h1>
+          <button class="main-page-button" type="button">Order Service</button>
+        </div>
       </section>
 
       <!-- секція переваг -->
       <section class="advantages section">
-        <h2 class="visually-hidden">Our advantages</h2>
         <div class="container">
+          <h2 class="visually-hidden">Our advantages</h2>
           <ul class="advantages-list">
             <li class="adv-item">
               <h3 class="third-title adv-title">Strategy</h3>
@@ -104,12 +106,11 @@
           </ul>
         </div>
       </section>
-
+      <div class="team-container"></div>
       <!-- секція команди -->
       <section class="team section">
-        <h2 class="second-title">Our Team</h2>
-
         <div class="container">
+          <h2 class="second-title">Our Team</h2>
           <ul class="team-list">
             <li class="card-box">
               <img
@@ -118,8 +119,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="third-title">Mark Guerrero</h3>
-              <p class="paragraph">Product Designer</p>
+              <div class="team-container">
+                <h3 class="third-title name-subtitle">Mark Guerrero</h3>
+                <p class="paragraph name-paragraph">Product Designer</p>
+              </div>
             </li>
             <li class="card-box">
               <img
@@ -128,8 +131,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="third-title">Tom Ford</h3>
-              <p class="paragraph">Frontend Developer</p>
+              <div class="team-container">
+                <h3 class="third-title name-subtitle">Tom Ford</h3>
+                <p class="paragraph name-paragraph">Frontend Developer</p>
+              </div>
             </li>
             <li class="card-box">
               <img
@@ -138,8 +143,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="third-title">Camila Garcia</h3>
-              <p class="paragraph">Marketing</p>
+              <div class="team-container">
+                <h3 class="third-title name-subtitle">Camila Garcia</h3>
+                <p class="paragraph name-paragraph">Marketing</p>
+              </div>
             </li>
             <li class="card-box">
               <img
@@ -148,8 +155,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="third-title">Daniel Wilson</h3>
-              <p class="paragraph">UI Designer</p>
+              <div class="team-container">
+                <h3 class="third-title name-subtitle">Daniel Wilson</h3>
+                <p class="paragraph name-paragraph">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -157,70 +166,83 @@
 
       <!-- секція портфоліо -->
       <section class="portfolio section">
-        <h2 class="second-title">Our Portfolio</h2>
-        <ul class="portfolio-list">
-          <li class="portfolio-card">
-            <img
-              src="./images/img-p.jpg"
-              alt="Banking App"
-              width="360"
-              height="300"
-            />
-            <h3 class="third-title">Banking App</h3>
-            <p class="paragraph">App</p>
-          </li>
-          <li class="portfolio-card">
-            <img
-              src="./images/img-p-1.jpg"
-              alt="Cashless Payment"
-              width="360"
-              height="300"
-            />
-            <h3 class="third-title">Cashless Payment</h3>
-            <p class="paragraph">Marketing</p>
-          </li>
-          <li class="portfolio-card">
-            <img
-              src="./images/img-p-2.jpg"
-              alt="Meditation App"
-              width="360"
-              height="300"
-            />
-            <h3 class="third-title">Meditation App</h3>
-            <p class="paragraph">App</p>
-          </li>
-          <li class="portfolio-card">
-            <img
-              src="./images/img-p-3.jpg"
-              alt="Taxi Service"
-              width="360"
-              height="300"
-            />
-            <h3 class="third-title">Taxi Service</h3>
-            <p class="paragraph">Marketing</p>
-          </li>
-          <li class="portfolio-card">
-            <img
-              src="./images/img-p-4.jpg"
-              alt="Screen Illustrations"
-              width="360"
-              height="300"
-            />
-            <h3 class="third-title">Screen Illustrations</h3>
-            <p class="paragraph">Design</p>
-          </li>
-
-          <li class="portfolio-card">
-            <img
-              src="./images/img-p-5.jpg"
-              alt="Online Courses"
-              width="360"
-              height="300"
-            />
-            <h3 class="third-title">Online Courses</h3>
-            <p class="paragraph">Marketing</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="second-title">Our Portfolio</h2>
+          <ul class="portfolio-list">
+            <li class="portfolio-card">
+              <img
+                src="./images/img-p.jpg"
+                alt="Banking App"
+                width="360"
+                height="300"
+              />
+              <div class="card-container">
+                <h3 class="third-title">Banking App</h3>
+                <p class="paragraph">App</p>
+              </div>
+            </li>
+            <li class="portfolio-card">
+              <img
+                src="./images/img-p-1.jpg"
+                alt="Cashless Payment"
+                width="360"
+                height="300"
+              />
+              <div class="card-container">
+                <h3 class="third-title">Cashless Payment</h3>
+                <p class="paragraph">Marketing</p>
+              </div>
+            </li>
+            <li class="portfolio-card">
+              <img
+                src="./images/img-p-2.jpg"
+                alt="Meditation App"
+                width="360"
+                height="300"
+              />
+              <div class="card-container">
+                <h3 class="third-title">Meditation App</h3>
+                <p class="paragraph">App</p>
+              </div>
+            </li>
+            <li class="portfolio-card">
+              <img
+                src="./images/img-p-3.jpg"
+                alt="Taxi Service"
+                width="360"
+                height="300"
+              />
+              <div class="card-container">
+                <h3 class="third-title">Taxi Service</h3>
+                <p class="paragraph">Marketing</p>
+              </div>
+            </li>
+            <li class="portfolio-card">
+              <img
+                src="./images/img-p-4.jpg"
+                alt="Screen Illustrations"
+                width="360"
+                height="300"
+              />
+              <div class="card-container">
+                <h3 class="third-title">Screen Illustrations</h3>
+                <p class="paragraph">Design</p>
+              </div>
+            </li>
+            <li class="portfolio-card">
+              <img
+                src="./images/img-p-5.jpg"
+                alt="Online Courses"
+                width="360"
+                height="300"
+              />
+              <div class="card-container">
+                <h3 class="third-title">Online Courses</h3>
+                <p class="paragraph">Marketing</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
