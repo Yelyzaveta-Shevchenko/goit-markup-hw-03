@@ -299,8 +299,8 @@ padding: 32px 0;
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-   column-gap: 24px;
-   row-gap: 48px;
+    column-gap: 24px;
+    row-gap: 48px;
     justify-content: center;
 }
 
@@ -313,20 +313,10 @@ padding: 32px 0;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-.portfolio-card img {
-    width: 360px;
-    /* margin-bottom: 32px; */
-}
 
 
-/* .portfolio-card h3
-{
-    padding-left: 16px;
-}
-.portfolio-card p {
-    padding-left: 16px;
-    padding-bottom: 32px;
-} */
+
+
 
 
 /* #endregion */
